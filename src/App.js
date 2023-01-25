@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import tree from './tree-g5c1c087bb_1280.jpg'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <img src={tree} className="tree" alt="tree" />
     </div>
   );
 }
