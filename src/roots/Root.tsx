@@ -1,4 +1,4 @@
-import React from 'react';
+import Spline from "@splinetool/react-spline";
 
 const Root = () => {
 
@@ -7,6 +7,7 @@ const Root = () => {
             <div id="sidebar">
                 <p><a href={'/'}>Back to main </a></p>
                 <div>
+                    <Spline scene="https://prod.spline.design/d57cWQWRHD0FBZm7/scene.splinecode" />
                     <form id="search-form" role="search">
                         <input
                             id="q"
