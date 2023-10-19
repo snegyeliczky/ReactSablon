@@ -1,4 +1,4 @@
-import Spline from "@splinetool/react-spline";
+
 
 const Root = () => {
 
@@ -7,7 +7,7 @@ const Root = () => {
             <div id="sidebar">
                 <p><a href={'/'}>Back to main </a></p>
                 <div>
-                    <Spline scene="https://prod.spline.design/d57cWQWRHD0FBZm7/scene.splinecode" />
+
                     <form id="search-form" role="search">
                         <input
                             id="q"
@@ -21,10 +21,6 @@ const Root = () => {
                             aria-hidden
                             hidden={true}
                         />
-                        <div
-                            className="sr-only"
-                            aria-live="polite"
-                        ></div>
                     </form>
                     <form method="post">
                         <button type="submit">New</button>
@@ -41,7 +37,6 @@ const Root = () => {
                     </ul>
                 </nav>
             </div>
-            <div id="detail"></div>
         </>
     );
 };
