@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <Spline scene="https://prod.spline.design/G2xgP3oY8BjNUHfU/scene.splinecode" />
+          <div >
+          <Spline scene="https://prod.spline.design/Ko3cdMNIHaFiLCEc/scene.splinecode" />
+          </div>
         <p>
           Sziasztok internet Nepe :D
             Miujsag???
