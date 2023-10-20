@@ -1,12 +1,14 @@
 import tree from './tree-g5c1c087bb_1280.jpg'
 import './App.css';
 import {useState} from "react";
+import Spline from "@splinetool/react-spline";
 
 function App() {
     const [answer, setAnswer] = useState('')
   return (
     <div className="App">
       <header className="App-header">
+          <Spline scene="https://prod.spline.design/G2xgP3oY8BjNUHfU/scene.splinecode" />
         <p>
           Sziasztok internet Nepe :D
             Miujsag???
