@@ -1,4 +1,3 @@
-import tree from './tree-g5c1c087bb_1280.jpg'
 import './App.css';
 import {useState} from "react";
 import Spline from "@splinetool/react-spline";
@@ -7,37 +6,43 @@ function App() {
     const [answer, setAnswer] = useState('')
   return (
     <div className="App">
-      <header className="App-header">
-          <div >
+      <div className="App-header">
+          <div className="AnimaRoom" >
           <Spline scene="https://prod.spline.design/Ko3cdMNIHaFiLCEc/scene.splinecode" />
           </div>
-        <p>
-          Sziasztok internet Nepe :D
-            Miujsag???
-        </p>
-          <p>{answer}</p>
+          <a
+              className="App-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              Learn React
+          </a>
+          <a
+              className="spline-link"
+              href="https://spline.design/"
+              target="_blank"
+              rel="noopener noreferrer"
+          >
+              Learn Spline
+          </a>
+          <a
+              href={`/go`}
+          >
+              More spline ->
+          </a>
+
           <textarea onChange={(ans) => {
               console.log(ans)
-
+              setAnswer(ans.target.value)
           }}/>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-        <p>
-            <a
-                href={`/go`}
-            >
-                click to go for an other page
-            </a>
-        </p>
-      <img src={tree} className="tree" alt="tree" />
+       {answer}
+          <a
+              href={`/go`}
+          >
+              More spline ->
+          </a>
+      </div>
     </div>
   );
 }
