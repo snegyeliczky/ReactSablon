@@ -5,10 +5,10 @@ const Root = () => {
 
     return (
         <div className="secondPage">
-            <p><a href={'/'}>Back to main </a></p>
-            <div>
+            <div><a href={'/'}>Back to main </a></div>
+            <div className="wrapper">
                 <Spline scene="https://prod.spline.design/hBcFuNagRnM09C4V/scene.splinecode" />
-            </div>
+            </div >
         </div>
     );
 };

@@ -37,11 +37,7 @@ function App() {
               setAnswer(ans.target.value)
           }}/>
        {answer}
-          <a
-              href={`/go`}
-          >
-              More spline ->
-          </a>
+
       </div>
     </div>
   );

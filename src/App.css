@@ -21,7 +21,7 @@
   }
 
 .wrapper{
-  max-width: 80%;
+max-height: 80vh;
 }
 .App-header {
   background-color: #282c34;
@@ -43,7 +43,7 @@
 }
 
 .secondPage{
-  background-color: #282c34;
+  background-color: #101013;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
